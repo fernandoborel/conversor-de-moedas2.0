@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Conversor de moedas 2.0</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Realiza a conversão de Real R$ para a moeda selecionada
+        </p>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        
+            <button type="submit" onclick="Converter()">Converter para Euro €</button><br/>
+            <h2 id="valorConvertido"></h2>
+            <button type="submit" onclick="ConverterUs()">Converter para Dólar U$</button>
+            <h2 id="valorConverter"></h2>
+            <button type="submit" onclick="ConverterLi()">Converter para Libra £</button>
+            <h2 id="valorConvertidoL"></h2>
+            <button type="reset" onclick="Limpar()">Limpar</button>
+    </div>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
